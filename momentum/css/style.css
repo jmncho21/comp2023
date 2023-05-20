@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    position: absolute;
+    width:100vW;
+    height:100vh;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    opacity:0.7 ;
+    z-index: -1;
+}
+
+#weather{
+    position: absolute;
+    font-size: 22px;
+    top: 16px;
+    right: 15px;
+    opacity:0.6;
+}
+
+#greeting{
+    position:relative;
+    top:15rem;
+    font-size: 50px;
+    opacity: 0.8;
+    
+}
+
+#login-form{
+    position:relative;
+    top:20rem;
+
+}
+
+#inputId{
+    background-color: transparent;
+    
+}
+
+#quote{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    opacity: 0.7;
+    
+}
+
+
+#clock{
+    position:absolute;
+    font-size: 20px
+    top:8px;
+    left:15px;
+}
+
+
+
+
+
+
+
+
+.hidden{
+    display: none;
+}
